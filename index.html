@@ -10,16 +10,16 @@
     <nav class="navegacao">
         <ul>
             <li>
-                <a href="">Home</a>
+                <a href="#Home">Home</a>
             </li>
             <li>
-                <a href="">Projects</a>
+                <a href="#Projects">Projects</a>
             </li>
             <li>
-                <a href="">About</a>
+                <a href="#About">About</a>
             </li>
             <li>
-                <a href="">Contact</a>
+                <a href="#Contact">Contact</a>
             </li>
         </ul>
 
@@ -28,21 +28,84 @@
 
     <div id="Home">
         <h2>João da Silva</h2>
-        <h3>Desenvolvedor Web</h3>
+        <p>Desenvolvedor Web</p>
         <img src="assets/img/" alt="">
     </div>
 
-    <div id="Projects">
-        <h1>Projects</h1>
-        <h2>nome</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus esse fuga similique rem, 
-            a sed consectetur eligendi dicta facilis? 
-            Iure corrupti neque dolores velit explicabo ipsam expedita error, sequi recusandae?
-        </h3>
-        <img src="assets/img/" alt="">
-    </div>
+    <section id="About" class="about">
+        <h2 class="about-title">About Me</h2>
+        <div class="about-box">
+            <p class="about-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nihil ipsa sunt voluptates 
+                officiis libero incidunt voluptatibus facilis nostrum 
+                alias molestias ratione sapiente placeat fugit! Earum debitis quia iste dolores!
+            </p>
+        </div>
+
+    </section>
+
+    <section id="Projects" class="projects"> 
+        <h2 class="projects-title">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="projects-box-item">
+
+                <img src="assets/img/projeto1.jpg" alt="projects 1" class="projects-img">
+                    <h3 class="title-projects">
+                    Projeto 1
+                    </h3>
+                        <p class="info-projects">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+            </div>
+
+        </div>
+
+        
+            <div class="projects-box-item">
+
+                <img src="assets/img/projeto2.jpg" alt="projects 2" class="projects-img">
+                    <h3 class="title-projects">
+                    Projeto 2
+                    </h3>
+                        <p class="info-projects">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+            </div>
+
+        </div>
+
+        
+            <div class="projects-box-item">
+
+                <img src="assets/img/projeto3.jpg" alt="projects 3" class="projects-img">
+                    <h3 class="title-projects">
+                    Projeto 3
+                    </h3>
+                        <p class="info-projects">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Contact" class="contact">
+        <h2 class="contact-title">Contact</h2>
+        <form class="formulario" id="formulario">
+
+            <div class="name-form">
+                 <input placeholder="nome" class="input-text">
+            </div>
+
+            <div class="group-form">
+                 <textarea class="text-form" placeholder="Digite sua mensagem"></textarea>
+            </div>
 
 
+        </form>
+    </section>
 
     <script src="assets/java/java.js"></script>
 </body>
