@@ -65,3 +65,23 @@ body{
     width: 100%;
     transition: width 0.5s;
 }
+
+.cabecalho{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    color: var(--primary);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.cargo{
+    font-size: 1.5rem;
+    color: var(--claro);
+}
